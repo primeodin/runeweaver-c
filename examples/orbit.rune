@@ -1,4 +1,8 @@
-let mass 2.0
-let velocity 7.0
-energy mass velocity
-constant alpha
+# A tiny current reconstruction, not an actual 2003 transcript.
+# Constants are uppercase; variables are one lowercase letter.
+let m = 2.0
+let v = 7.0
+let e = m * v * v / 2
+print e
+print ALPHA
+print C / C + PI

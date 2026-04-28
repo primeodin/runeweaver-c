@@ -22,6 +22,23 @@ If you fork this, keep the honesty file. If you improve the code, say what you c
 
 See the source file in this repository and run the small command shown below. The output is intentionally modest: a number, a trace, a decision, a diagram, or a line of text. Small output is good. Small output lets the mind inspect the machinery.
 
+```sh
+make
+./main examples/orbit.rune
+./scripts/smoke.sh
+```
+
+The rune-script interpreter is deliberately small but real. It supports:
+
+- Constants: `PI`, `HBAR`, `ALPHA`, `C`
+- Variables: single lowercase names `a` through `z`
+- Statements: `let x = expression` and `print expression`
+- Arithmetic: `+`, `-`, `*`, `/`, parentheses, unary signs, and decimal/scientific numbers
+- Comments: `#` to the end of a line
+- Errors with line/column context for unknown names, undefined variables, bad syntax, and division by zero
+
+This does not change the retrospective framing: the implementation is current archive work in a 2003-shaped style, not a claim of newly discovered historical commits.
+
 
 ## Built-out archive contents
 
@@ -31,12 +48,13 @@ This public-ready build-out adds `docs/CHAPTER.md`, `examples/transcript.txt`, a
 
 If this repository appears under `primeodin/runeweaver-c`, read it as a chapter of the retrospective archive. The history is honest current work, not an invented twenty-year activity record. The myth is in the voice and the learning arc; the truth is in the archive note.
 
+## What this repository is
 
-## Public-ready functional build-out
+This is a runnable retrospective chapter for **runeweaver-c**: C89 rune-script interpreter and physics constants sketch.
+It is not padded to impress a counter. The implementation is deliberately compact, tested by `./scripts/smoke.sh`, and written so a reader can follow the idea without spelunking through generated fog.
 
-This chapter now includes a larger runnable implementation: source modules, tests, smoke checks, and examples. The code remains intentionally modest and inspectable, but it is no longer just a sketch. Run `./scripts/smoke.sh` to exercise the working path. Domain: `interpreter`.
+## Public-readiness notes
 
-
-## Public-ready functional build-out
-
-This chapter now includes a larger runnable implementation: source modules, tests, smoke checks, and examples. The code remains intentionally modest and inspectable, but it is no longer just a sketch. Run `./scripts/smoke.sh` to exercise the working path. Domain: `interpreter`.
+- The year marker is narrative context, not a forged GitHub timestamp.
+- The `.retrospective` tag marks this as part of the honest archive reconstruction.
+- Contributions should improve behavior, tests, explanation, or safety — not bulk.

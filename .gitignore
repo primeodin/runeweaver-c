@@ -12,3 +12,5 @@ test_core
 test_engine
 
 *.log
+
+test_script
