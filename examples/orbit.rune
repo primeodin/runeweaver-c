@@ -1,0 +1,4 @@
+let mass 2.0
+let velocity 7.0
+energy mass velocity
+constant alpha
