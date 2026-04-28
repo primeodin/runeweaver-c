@@ -24,5 +24,8 @@ int main(int argc, char **argv) {
         else if (strcmp(op,"constant") == 0 && fscanf(fp,"%63s",a)==1) printf("%s = %.12f\n", a, strcmp(a,"alpha")==0 ? RUNE_ALPHA : RUNE_PI);
         else { printf("unknown rune: %s\n", op); }
     }
-    if (fp != stdin) fclose(fp); return 0;
+    if (fp != stdin)
+        fclose(fp);
+    return 0;
 }
+
