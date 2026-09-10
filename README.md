@@ -58,3 +58,13 @@ It is not padded to impress a counter. The implementation is deliberately compac
 - The year marker is narrative context, not a forged GitHub timestamp.
 - The `.retrospective` tag marks this as part of the honest archive reconstruction.
 - Contributions should improve behavior, tests, explanation, or safety — not bulk.
+
+## Help / good first issues
+
+Archive chapters still take first patches. Scoped tickets:
+
+- **#1** — [`docs/start-here.md`](https://github.com/primeodin/runeweaver-c/issues/1) walkthrough (`make` → `orbit.rune` → smoke)
+- **#2** — [`examples/constants.rune`](https://github.com/primeodin/runeweaver-c/issues/2) + expected transcript line
+
+See [CONTRIBUTING.md](CONTRIBUTING.md). Keep the retrospective framing honest — improve the tool, do not invent 2003 footprints.
+
