@@ -28,6 +28,8 @@ make
 ./scripts/smoke.sh
 ```
 
+A step-by-step cold-start walkthrough lives in **[docs/start-here.md](docs/start-here.md)**.
+
 The rune-script interpreter is deliberately small but real. It supports:
 
 - Constants: `PI`, `HBAR`, `ALPHA`, `C`
