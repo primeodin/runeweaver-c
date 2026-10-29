@@ -1,3 +1,9 @@
 $ ./scripts/smoke.sh
 runeweaver-c: smoke test for the 2003 retrospective chapter
 The rune holds.
+Named constants: examples/constants.rune
+----------------------------------------
+$ ./main examples/constants.rune
+6.28318530718
+3.16152677156e-026
+0.0072973525693

@@ -1,0 +1,7 @@
+# Named constants are part of the interpreter; use them directly.
+# Variables are single lowercase letters; keep the output deterministic.
+let a = 2 * PI
+let b = HBAR * C
+print a
+print b
+print ALPHA
